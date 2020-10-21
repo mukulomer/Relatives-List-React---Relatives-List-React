@@ -14,7 +14,7 @@ export default function App() {
     <div>
       <ol key="relativeList">
         {Relatives.map((relative, index) => (
-          <li key={`relativeListItem ${index + 1}`}>{relative}</li>
+          <li key={`relativeListItem${index + 1}`}>{relative}</li>
         ))}
       </ol>
     </div>
